@@ -195,6 +195,8 @@ public class GameWindow extends JFrame{
                 */
                 g2d.setPaint(col[t.type]);
                 g2d.fillOval((int)(t.x- (size / 2)),(int)(t.y- (size / 2)),(int)(size),(int)(size));
+                //g2d.setStroke(new BasicStroke(size,BasicStroke.CAP_ROUND,BasicStroke.JOIN_ROUND));
+                //g2d.drawLine((int)(t.x),(int)(t.y),(int)(t.x-t.vx),(int)(t.y+t.vy));
             }
         }
         setImage(field);
