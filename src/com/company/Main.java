@@ -17,7 +17,7 @@ public class Main {
         gw.size=15;
         //gw.g=20;
         gw.g=40;
-        gw.middling=0.0005;
+        gw.middling=0.001;
         //gw.generateRandom(500,20);
         gw.generateRandom(700,20);//1000 20
         //gw.borders=true;
