@@ -31,7 +31,7 @@ public class GameWindow extends JFrame{
     Random r=new Random();
     double friction=0;
     double g=1;
-    double middling=0.1;
+    double middling=0.15;
     boolean borders=false;
     int size=40;
     int w=1920;

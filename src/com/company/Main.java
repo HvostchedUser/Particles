@@ -13,13 +13,13 @@ public class Main {
         GameWindow gw=new GameWindow();
         gw.beginDrawing();
         //gw.friction=0.7;
-        gw.friction=0.8;
-        gw.size=10;
+        gw.friction=0.7;
+        gw.size=15;
         //gw.g=20;
-        gw.g=20;
-        gw.middling=0.001;
+        gw.g=40;
+        gw.middling=0.0005;
         //gw.generateRandom(500,20);
-        gw.generateRandom(2000,30);//1000 20
+        gw.generateRandom(700,20);//1000 20
         //gw.borders=true;
         while(true){
             try {
